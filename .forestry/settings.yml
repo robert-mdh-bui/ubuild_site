@@ -8,6 +8,10 @@ sections:
   path: FORESTRY-README.md
   label: Home
   read_only: true
+- type: jekyll-pages
+  label: Pages
+  create: all
+  match: "**/*"
 - type: document
   path: _config.yml
   label: Config
