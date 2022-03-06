@@ -8,16 +8,6 @@ sections:
   path: FORESTRY-README.md
   label: Home
   read_only: true
-- type: jekyll-posts
-  label: Posts
-  create: all
-- type: directory
-  path: ''
-  label: Pages
-  create: all
-  match: "*.md"
-  exclude: "*README.md"
-  new_doc_ext: md
 - type: document
   path: _config.yml
   label: Config
